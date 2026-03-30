@@ -270,6 +270,7 @@ ul { list-style: none; }
 .hero-card-2 { bottom: 10%; right: -8%; animation-delay: 1s; }   /* Power BI    — bottom right  */
 .hero-card-3 { top: 10%;    right: -8%; animation-delay: 2s; }   /* SAP SCM     — top right     */
 .hero-card-4 { bottom: 10%; left:  -5%; animation-delay: 3s; }   /* Supply Chain — bottom left  */
+.hero-card-5 { top: 42%;    right: -8%; animation-delay: 4s; }   /* Logistique   — center right */
 @keyframes cardFloat {
   0%,100%{ transform:translateY(0); }
   50%{ transform:translateY(-8px); }
@@ -748,6 +749,7 @@ footer p { font-size: .83rem; color: var(--text-muted); }
   .hero-card-2 { right: 0; }
   .hero-card-3 { right: 0; }
   .hero-card-4 { left: 0; }
+  .hero-card-5 { right: 0; }
   .stats-container { gap: 20px; }
   .stat-divider { display: none; }
   .skills-grid { grid-template-columns: 1fr; }
